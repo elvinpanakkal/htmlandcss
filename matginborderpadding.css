@@ -1,0 +1,33 @@
+.box1{
+    color: brown;
+    background-color: aqua;
+    padding : 50px;
+    margin: 25px;
+    border: solid red 10px;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    text-align:center;
+    
+}
+.box2{
+    color: brown;
+    background-color: darkblue;
+    padding: 50px;
+    margin: 25px;
+    border: solid red 10px;
+}
+.box3{
+    color: brown;
+    background-color: green;
+    padding: 50px;
+    margin: 50px;
+
+}
+*{
+    box-sizing: border-box;
+}
+.flex-container {
+    display: flex;
+    flex-direction: row;
+  }

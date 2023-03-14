@@ -1,0 +1,25 @@
+.box1{
+    
+    border: solid lightgray 5px;
+    
+
+}
+.box2{
+    border: solid lightgray 5px;
+}
+.box3{
+    border: solid lightgray 5px;
+    
+
+}
+.outbox{
+    display: flex;
+    flex-wrap: wrap;
+    
+   
+    
+    
+}    
+.body{
+    background-color: lightgray;
+}

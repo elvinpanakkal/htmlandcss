@@ -1,0 +1,38 @@
+<html>
+    <title>cricket and football</title>
+    <body>
+        <h1>cricket players</h1>
+    <ol> cricket players
+        <li>sachin</li>
+        <li>dhoni</li>
+        <li>kholi</li>
+    </ol>
+    <ul> cricket players
+        <li>sachin</li>
+        <li>dhoni</li>
+        <li>kholi</li>
+    </ul>
+    <h1>football players</h1>
+    <ol type="A"> football players
+        <li>messi</li>
+        <li>ronaldo</li>
+        <li>de jong</li>
+        <li>rooney</li>
+        <li>neymar</li>
+    </ol>
+    <ul> football players
+        <li font style="color: darkred;">messi</li>
+        <li>ronaldo</li>
+        <li>de jong</li>
+        <li>rooney</li>
+        <li>neymar</li>
+    </ul>
+    <div>
+        <h2>football</h2>
+        <ol>players
+            <li>messi</li>
+            <li>messi</li>
+        </ol>
+    </div>
+    </body>
+</html>

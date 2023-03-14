@@ -1,0 +1,22 @@
+
+.box1{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    margin: 50px;
+    padding: 25px;
+    background-color: green;
+    border:solid maroon 5px;
+    width: 200px;
+    height: 200px;
+    flex-direction: column;
+    
+
+    
+  }
+.flex-container{
+    align-items: center;
+    justify-content: center;
+    margin-top:100%;
+    
+}

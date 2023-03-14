@@ -1,0 +1,14 @@
+.text{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    
+
+    
+  }
+.center{
+    align-items: center;
+    justify-content: center;
+    margin-top:50%;
+    
+}
