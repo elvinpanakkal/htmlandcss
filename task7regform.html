@@ -5,8 +5,62 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title font style="color: aqua;">Registration Form</title>
+    <link rel="stylesheet" href="regform.css">
+    
 </head>
 <body>
-    Name: <input type="text" name="" id="">
+   <form>
+        <div class="container">
+          <h1>Registration Form</h1>
+          <p>Please fill in this form for Registration purpose.</p>
+          <hr>
+          <label for="name"><b>Name</b></label>
+          
+          <input type="text" placeholder="Enter Name" name="name" id="name" required>
+      
+          <label for="psw"><b>Password</b></label>
+          <input type="password" placeholder="Enter Password" name="psw" id="psw" required>
+          <p>select your gender</p>
+          <input type="radio" id="Male" value="Male">
+          <label for="Male">Male</label><br>
+          <input type="radio" id="Female" value="Female">
+          <label for="Female">Female</label><br>
+          <hr>
+          <label for="Position">Specify Your Position</label>
+          <select>
+            <option value="Backend Developer">Backend Developer</option>
+            <option value="Frontend Developer">Frontend Developer</option>
+            <option value="Fullstack">Fullstack</option>
+          </select>
+          <hr>
+          <p>Please select your skills:</p>
+          <input type="checkbox" id="html"value="html">
+          <label for="hmtl">html</label><br>
+          <input type="checkbox" id="css" value="css">
+          <label for="css">css</label><br>
+          <input type="checkbox" id="javascript"value="javascript">
+          <label for="javascript">Javascript</label><br><br>
+          <input type="submit" value="Submit">
+          <hr>
+          <label for="Description">please tell something about yourself</label>
+
+          <textarea id="Description" name="Description" rows="10" cols="50">
+          </textarea>
+          <hr>
+          <form action="/action_page.php">
+            <input type="file" id="myFile" name="filename">
+            <input type="submit">
+          </form>
+          
+          
+      
+         
+          
+        </div>
+      
+        <div class="container signin">
+          
+        </div>
+      </form>
 </body>
 </html>
